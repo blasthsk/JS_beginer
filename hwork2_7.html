@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function plusf(a,b) {
+            return a+b
+        }
+        function minusf(a,b) {
+            return a-b
+        }
+        function mulf(a,b) {
+            return a*b
+        }
+        function divf(a,b) {
+            return a/b
+        }
+        
+        function ariphf(a,b,oper) {
+            switch (oper) {
+                case "+":
+                    return plusf(a,b)
+                    
+                case "-":
+                   return minusf(a,b)
+                   
+                case "*":
+                    return mulf(a,b)
+                    
+                case "/":
+                    return divf(a,b)
+                    
+                default:
+                    break;
+            }
+        }
+        alert(ariphf(5,2,"/"))
+    </script>
+</body>
+</html>

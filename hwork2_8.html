@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function powerfulfunc(val,pow) {
+            if (pow===1) {
+                return val
+            }
+            return val * powerfulfunc(val,pow -1)
+
+        }
+        alert(powerfulfunc(2,8))
+    </script>
+</body>
+</html>
