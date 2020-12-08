@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  .main {
+    width: 640px;
+    height: 400px;
+    margin: 20px auto 0;
+    border: 10px solid silver;
+    font-size: 80px;
+    
+  }

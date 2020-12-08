@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+
+ 
+  .main {
+    width: 640px;
+    height: 650px;
+    margin: 20px auto 0;
+    border: 10px solid silver;
+    font-size: 0;
+    padding: 0.5px;
+  }
+.cell{
+    width: 77px;
+    height: 78px;
+    border: 1px solid silver;
+    display: inline-block;
+  
+ 
+  
+  
+}
+.Browncell{
+    width: 77px;
+    height: 78px;
+    border: 1px solid silver;
+    display: inline-block;
+    
+   
+    background-color: rgb(110, 50, 50);
+    
+  }
+  
+
+.text{
+  width: 50px;
+  margin: auto;
+  word-wrap:break-word;
+  text-align: center;
+  
+  font-size: 40px;
+}
+.cellBrown {
+    width: 78px;
+    height: 78px;
+    border: 1px solid silver;
+    display: inline-block;
+    background-color: rgb(110, 50, 50);
+    border: 0,5px solid silver;
+  }
